@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    background-image: url(../images/background1.jpg);
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    margin-top: 120px;
+   height: 60vh;
+   border-radius: 20px;
+   background-color: transparent;
+    
+   justify-content: center;
+   backdrop-filter: blur(30px);
+}
+.card1{
+   
+    height: 50vh;
+    width: 40vh;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    float: left;
+}
+input{
+   height: 40px;
+   width: 220px;
+   border-radius: 5px;
+   background-color: transparent;
+   backdrop-filter: blur(10px);
+   outline: none;
+   margin-top: 10px;
+   padding-left: 10px;
+   border: 2px solid rgba(255, 255, 255, 0.3);
+   color: #fff;
+
+
+}
+input::placeholder{
+    color: #fff;
+
+}
+button{
+    background-color: transparent;
+   backdrop-filter: blur(30px);
+   border-radius: 10px;
+   outline: none;
+   border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+button:active{
+    transform: scale(0.9);
+}
+
+label{
+    color: #fff;
+}
+
+
+/* for weather card*/
+.card2{
+    background-color:  rgba(17, 16, 16, 0.3);;
+    border-radius: 20px;
+    height: 100vh;
+}
+.class2{
+    
+    border-radius: 20px;
+    float: right;
+    width: 850px;
+    color: #fff;
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.cardimg{
+    
+   
+    height: 410px;
+    width: 500px;
+    align-self: flex-end;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    
+    
+}
+.cardinfo{
+   
+    height: 388px;
+    width: 350px;
+    align-self: flex-start;
+    padding: 10px;
+    color: black;
+    font-family: 'Century Schoolbook', sans-serif;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.class3 h1{
+    font-weight: bold;
+    padding: 0%;
+}
+.class4 img{
+    border-radius: 20px;
+    opacity: 50%;
+}
+.time{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    
+}
+.country{
+    position: absolute;
+    top: 90%;
+    left:1%;
+}
+.celsius{
+    position: absolute;
+    padding-top: 80px;
+    font-size: 45px;
+}
